@@ -64,4 +64,4 @@ client.on('message', async message => {
 
 })
 
-client.login("OTM2NjM5MDE2MDQ3MTA0MDIx.YfQHDw.Zg4FX3_gJvAbhUG0wJp1jX8kIGk")
+client.login("OTM2NjM5MDE2MDQ3MTA0MDIx.YfQHDw.awuVJwbi0ovazHGfUKXtLQmIPzQ")
