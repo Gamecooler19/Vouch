@@ -64,17 +64,5 @@ client.on('message', async message => {
 
 })
 
-client.on("message", async (message) => {
-    if (message.content.startsWith("+invite")) {
-
-        client.send({
-            embed: {
-                title: "**Add Me And Show Your Server Legitimicy**",
-                description: "[Invite Me](https://discord.com/oauth2/authorize?client_id=936639016047104021&scope=bot&permissions=545394785529)"
-            }
-        });
-
-    }
-
 
 client.login("OTM2NjM5MDE2MDQ3MTA0MDIx.YfQHDw.awuVJwbi0ovazHGfUKXtLQmIPzQ")
