@@ -65,13 +65,9 @@ client.on('message', async message => {
 })
 
 client.on("message", async (message) => {
-
-    // Check if the message starts with our command
     if (message.content.startsWith("+invite")) {
 
-    
-        // Send the invite to the mentioned user's DMs
-        user.send({
+        client.send({
             embed: {
                 title: "**Add Me And Show Your Server Legitimicy**",
                 description: "[Invite Me](https://discord.com/oauth2/authorize?client_id=936639016047104021&scope=bot&permissions=545394785529)"
