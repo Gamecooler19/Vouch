@@ -64,7 +64,7 @@ client.on('message', async message => {
 
 })
 
-client.login(token)
+client.login(config.token)
 
 const express = require('express')
 const app = express();
